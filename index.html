@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<style>
+	*{
+		font-family: "微软雅黑";
+		padding: 0;
+		margin: 0;
+	}
+	#im img{
+		padding:5px;
+	}
+	p{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		list-style: none;
+	}
+	#ul img{
+		height:50px;
+		width: 50px;
+	}
+	#ul li {
+		margin-top: 15px;
+		height:120px;
+		width:33.3%;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+</style>
+<body>
+	<div style="background-color: #1b82d2;height: 50px;">
+		<span style="line-height:50px;float: left;font-size:20px;color: white;margin-left:10px;">
+			朋友
+		</span>
+		<div id="im" style="float: right;height:50px;align-items: center;display: flex;">
+			<img src="./img/搜索.png"  />	
+			<img src="./img/人.png"  />
+			<img src="./img/添加.png"  />	
+		</div>
+	</div>
+	<div style="height:150px;background-color: white;">
+		<ul id="ul">
+			<li style="border-right:1px solid lightgray;">
+				<div>
+					<img src="./img/sucaiimg/life.png"  style="margin-left:10px;" />
+					<p style="color: black;margin-left:12px;">生活号</p>
+					<p>钉钉更新了</p>
+				</div>
+			</li>
+			<li style="border-right:1px solid lightgray;">
+				<div>
+					<img src="./img/sucaiimg/friends_icon2.png"  style="margin-left:30px;" />
+					<p style="color: black;margin-left:33px;">小程序</p>
+					<p>发现更多精品服务</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="./img/sucaiimg/friends_icon3.png"  style="margin-left:20px;" />
+					<p style="color: black;margin-left:22px;">生活圈</p>
+					<p>和朋友分享生活</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div style="margin-top:20px">
+		<ul class="mui-table-view">
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="./img/sucaiimg/friends_icon4.png">
+		            <div class="mui-media-body">
+		                	服务提醒(含支付助手)
+		                <p class='mui-ellipsis'>空气污染，送健康果咯！</p>
+		            </div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="./img/sucaiimg/friends_icon5.png">
+		            <div class="mui-media-body">
+		                	蚂蚁财富
+		                <p class='mui-ellipsis'>你有财富开运红包待领取</p>
+		            </div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="./img/sucaiimg/friends_icon6.png">
+		            <div class="mui-media-body">
+		                	手机充值
+		                <p class='mui-ellipsis'>快开学的你是否也有这样的苦恼.</p>
+		            </div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="./img/sucaiimg/friends_icon7.png">
+		            <div class="mui-media-body">
+		                	浦发银行信用卡
+		                <p class='mui-ellipsis'>[消息提醒]您有一波半价美食待领取</p>
+		            </div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="./img/sucaiimg/friends_icon8.png">
+		            <div class="mui-media-body">
+		               		 浦发银行信用卡
+		                <p class='mui-ellipsis'>[消息提醒]您有一波半价美食待领取</p>
+		            </div>
+		        </a>
+		    </li>
+		</ul>
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item">
+			<span class="mui-icon">
+				<img src="./img/支付宝.png"  />
+			</span>
+			<span class="mui-tab-label" style="font-size:15px;margin-left:5px;">首页</span>
+		</a>
+		<a class="mui-tab-item ">
+			<span class="mui-icon">
+				<img src="./img/财富A.png"  />
+			</span>
+			<span class="mui-tab-label" style="font-size:15px;margin-left:5px;">财富</span>
+		</a>
+		<a class="mui-tab-item ">
+			<span class="mui-icon">
+				<img src="./img/购物.png"  />
+			</span>
+			<span class="mui-tab-label" style="font-size:15px;margin-left:5px;">口碑</span>
+		</a>
+		<a class="mui-tab-item mui-active">
+			<span class="mui-icon">
+				<img src="./img/朋友.png"  />
+			</span>
+			<span class="mui-tab-label" style="font-size:15px;margin-left:5px;">朋友</span>
+		</a>
+		<a class="mui-tab-item">
+			<span class="mui-icon">
+				<img src="./img/my.png"  />
+			</span>
+			<span class="mui-tab-label" style="font-size:15px;margin-left:5px;">我的</span>
+		</a>
+	</nav>
+</body>
+</html>
